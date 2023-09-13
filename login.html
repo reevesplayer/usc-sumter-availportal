@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="login-form" id="login-form">
-        <div class="login-left">
-            <h1>Login</h1>
-                <label for="email">Email:
-                    <input type="email" name="email" id="userEmail" placeholder="example@email.sc.edu">
-                </label>
-                <label for="password">Password:
-                    <input type="password" name="password" id="userPassword" placeholder="Password">
-                </label>
-        </div>
-        <div class="login-right">
-            <input type="submit" value="Login" id="loginButton">
-        </div>
-    </div>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login | USC Rocket League</title>
+        <link rel="stylesheet" href="./login.css">
+    </head>
+    <body>
+        <section class="login">
+            <div class="login-box">
+                <h2>Login</h2>
+                <form>
+                    <div class="user-box">
+                        <input type="email" name="email" class="email" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="password" name="password" class="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="login-btns">
+                        <a href="#"><p>Login</p></a>
+                        <div class="signup">
+                            <a href="signup.html"><p>Signup</p></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+    <script src="js/login.js"></script>
 </html>
