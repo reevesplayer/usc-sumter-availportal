@@ -11,6 +11,10 @@ main {
 }
 /* Navbar styles */
 
+body {
+    background-color: #101010;
+}
+
 
 .navbar {
     display: flex;
@@ -118,14 +122,6 @@ hr {
     padding: 30px;
 }
 
-.card:hover {
-    border-color: #ff3636 !important;
-    transform: scale(1.05);
-    transition: all 0.5s ease-in-out;
-}
-
-
-
 .text-center {
     text-align: center;
     background-color: #333;
@@ -141,4 +137,8 @@ hr {
 
 .footer-row a:hover {
     color: #ff3636;
+}
+
+.t-header {
+    color: #fff;
 }
