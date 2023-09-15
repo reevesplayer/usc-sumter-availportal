@@ -45,11 +45,15 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;;
+    transition: all 0.3s ease 0s;
 }
 
 /* Hover effect on navigation links */
 .nav-links a:hover {
     color: #ff3636;
+    text-decoration: none;
 }
 
 .intro {
